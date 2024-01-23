@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #7ED7C1;
+    font-family: Libre Baskerville;
+
+}
+
+.container {
+    background-color: #B06161;
+    padding: 10px;
+    text-align: center;
+    color: #F0DBAF;
+    border-radius: 12px;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.currency-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-container select {
+    padding: 10px;
+}
+
+
+.currency-container input {
+    text-align: right;
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    color: #F0DBAF;
+}
+
+
+p {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+}
